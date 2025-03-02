@@ -39,7 +39,7 @@ contraseña es: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 level 5 → level 6:
 
-una vez logueados usamos el comando "ls" y entramos al directorio que aparece con el comando "cd inhere", usamos el comando "ls -l", y nos muestra varios archivos y cada archivo contiene mas de 5 ficheros, para no leer un por uno, usamos el comando "find ./ -type f -size 1033c" para que busque el tipo de archivo con un tamaño de 1033 bytes y nos muestras un fichero, que es (./maybehere07/.file2), usamos el comando "cat ./maybehere07/.file2" y al fina la 
+una vez logueados usamos el comando "ls" y entramos al directorio que aparece con el comando "cd inhere", usamos el comando "ls -l", y nos muestra varios archivos y cada archivo contiene mas de 5 ficheros, para no leer un por uno, usamos el comando "find ./ -type f -size 1033c" para que busque el tipo de archivo con un tamaño de 1033 bytes y nos muestras un fichero, que es (./maybehere07/.file2), usamos el comando "cat ./maybehere07/.file2" y al final la 
  
 contraseña es: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
  
@@ -51,8 +51,9 @@ contraseña es: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 level 7 → level 8:
 
+una vez logueados en bandit usamos el comando "ls" nos muestra el archivo(data.txt),usamos el comando "cat data.txt" y nos muestra lo que parece ser muchas contraseñas junto con diferentes palabras.Lo que hacemos es poner el comando junto con la palabra que nos el nivel "grep millionth data.txt" y al final la 
 
-contraseña es: 
+contraseña es: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
  
 level 8 → level 9:
 
