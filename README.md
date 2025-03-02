@@ -8,20 +8,20 @@ puse en la terminal de linux el comando "ssh -p 2220 bandit0@bandit.labs.overthe
 level 0 → level 1:
 
 para poder hallar la contraseña una vez logueado use el comando "ls", nos muestra que hay un solo archivo que es (readme),usamos el comando "cat readme" para que me muestre el contenido del archivo.
-Al final nos dio la
+Al final la
 
 contraseña es: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 level 1 → level 2:
 
 para poder hallar la contraseña una vez logueado use el comando "ls", nos muestra que hay un solo archivo que es (-),usamos el comando "cat ./-" para que ver el contenido del archivo,el comando ayuda a entrar al directorio actual
-y no un parametro especial.Al final nos dio la 
+y no un parametro especial.Al final la 
 
 contraseña es: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 level 2 → level 3:
 
-para poder hallar la contraseña una vez logueado use el comando "ls", nos muestra que hay un solo archivo que es (spaces in this filename),usamos el comando "cat "spaces in this filename" para que ver el contenido del archivo,el comando ayuda a entrar al directorio actual.Al final nos dio la 
+para poder hallar la contraseña una vez logueado use el comando "ls", nos muestra que hay un solo archivo que es (spaces in this filename),usamos el comando "cat "spaces in this filename" para que ver el contenido del archivo,el comando ayuda a entrar al directorio actual.Al final la 
 
 contraseña es: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
@@ -33,8 +33,9 @@ contraseña es: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
  
 level 4 → level 5:
 
+para poder hallar la contraseña una vez logueado use el comando "ls", nos muestra que hay un solo archivo que es (inhere),usamos el comando "ls" para que ver el contenido del archivo,nos sale varios archivos que tienen de nombre -file00,01,02,03,...,09 en vez de ver que tiene uno por uno, usaremos el comando "file ./-file0*" este comando mostrara que contenido tienen todos los archivos, vemos que la mayoria de los archivos contienen data exepto el archivo -file07 que dice que contiene ASCII text, lo abrimos con el comando "cat ./-file 07 y al final la
 
-contraseña es: 
+contraseña es: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 level 5 → level 6:
 
