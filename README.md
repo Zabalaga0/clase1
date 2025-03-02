@@ -39,8 +39,9 @@ contraseña es: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 level 5 → level 6:
 
-
-contraseña es: 
+una vez logueados usamos el comando "ls" y entramos al directorio que aparece con el comando "cd inhere", usamos el comando "ls -l", y nos muestra varios archivos y cada archivo contiene mas de 5 ficheros, para no leer un por uno, usamos el comando "find ./ -type f -size 1033c" para que busque el tipo de archivo con un tamaño de 1033 bytes y nos muestras un fichero, que es (./maybehere07/.file2), usamos el comando "cat ./maybehere07/.file2" y al fina la 
+ 
+contraseña es: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
  
 level 6 → level 7:
 
