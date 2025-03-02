@@ -45,9 +45,10 @@ contraseña es: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
  
 level 6 → level 7:
 
+una vez logueados usamos el comando "find" con las especificaciones que nos dio el nivel, usamos el comando "find / -user bandit7 -group bandit6 -size 33c 2>/dev/null" al comando le estamos dando las especificaciones de su nombre de usuario (bandit7), el nombre de su grupo (bandit6) y el tamaño de (33 bytes) al final la 
 
-contraseña es: 
- 
+contraseña es: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
 level 7 → level 8:
 
 
