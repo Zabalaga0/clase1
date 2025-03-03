@@ -57,23 +57,27 @@ contraseña es: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
  
 level 8 → level 9:
 
+una vez logueados usamos el comando "ls" nos muestra el archivo(data.txt),usamos el comando "cat data.txt" y nos muestra lo que parece ser muchas contraseñas repetidas, usamos el comando "sort data.txt | uniq -u" este comando lo que hace es buscar una linea unica diferente que no se este repitiendo, esa info la sacamos usando el comando "man uniq" que nos dice que al usar "uniq -u" se estaria buscando lineas unicas. Al final la 
 
-contraseña es: 
+contraseña es: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
  
 level 9 → level 10:
 
+para poder hallar la contraseña usamos el comando "ls" nos muestra que existe un archivo (data.txt), vemos que contiene el archivo con el comando "cat data.txt", nos salio un monton de codigo binario con signos de interrogacion y algunas letras que si se pueden leer, usamos el comando "strings data.txt" y vemos que nos trata de mostrar lo que se entiende como mensajes (the password is), lo que quiere decir, la 
 
-contraseña es: 
+contraseña es: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
  
 level 10 → level 11:
 
+para poder hallar la contraseña usamos el comando "ls" nos muestra que existe un archivo (data.txt), vemos que contiene el archivo con el comando "cat data.txt", nos sale lo que parece ser la contraseña, por lo tanto usamos el comando con la informacion que nos dio el nivel que contiene datos codificados de lo que contiene el archivo "cat data.txt | base64 -d". Al final la 
 
-contraseña es: 
+contraseña es: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
  
 level 11 → level 12:
 
+para hallar la contraseña use el comando "ls", nos mostro el archivo (data.txt), vemos lo que contiene con el comando "cat data.txt", nos mostro lo que parece ser la contraseña, seguidamente usamos un comando que hace que rote 13 veces "echo "Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4" | tr 'A-Za-z' 'N-ZA-Mn-za-m'" lo que hara que la nos muestre la contraseña. Al final la 
 
-contraseña es: 
+contraseña es: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
  
 level 12 → level 13:
 
