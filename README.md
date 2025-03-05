@@ -1,6 +1,6 @@
 # clase1
 clase1
-
+ 
 # level 0:
 
 puse en la terminal de linux el comando "ssh -p 2220 bandit0@bandit.labs.overthewire.org", seguidamente colocamos la (contraseña)que la pagina de OverTheWire nos dio que era "bandit0"
