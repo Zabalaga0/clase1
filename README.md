@@ -1,5 +1,5 @@
 # clase1
-clase 1
+# clase 1
    
 # level 0:
 
