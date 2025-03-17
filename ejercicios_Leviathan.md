@@ -50,14 +50,42 @@ paso 5: usamos el comando "cat /etc/leviathan_pass/leviathan4"
  
 contraseña: WG1egElCvO
 ### level 4 → level 5
+paso 1: usamos el comando "ls -la" 
 
+paso 2: usamos el comando "cd .trash/"
+
+paso 3: usamos el comando "ls -la", dentro del directorio (.trash)
+
+paso 4: usamos el comando "./bin" y nos muestra numero de codigo binario
+
+paso 5: suponemos que es la contraseña asi que vamos a una pagina que convierta numeros binarios a texto
  
-contraseña: 
+contraseña: 0dyxT7F4QD
 ### level 5 → level 6
+paso 1: usamos el comando "ls -la"
 
+paso 2: usamos el comando "./leviathan"
+
+paso 3: usamos el comando "ltrace ./leviathan5"
+
+paso 4: usamos el comando "touch /tmp/file.log"
+
+paso 5: usamos el comando "./leviathan5"
+
+paso 6: usamos el comando "ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log"
+
+paso 7: usamo el comando "./leviathan5"
  
-contraseña: 
+contraseña: szo7HDB88w
 ### level 6 → level 7
+paso 1: usamos el comando "ls -la"
 
- 
-contraseña: 
+paso 2: usamos el comando "./leviathan6", nos pide un codigo de 4 digitos 
+
+paso 3: usamos el comando "for i in {0000..9999} ;do echo $i;./leviathan6 $i;done;", lo forzamos a que nos de el codigo, añ final nos dio un shell
+
+paso 4: usamos el comando "whoami"
+
+paso 5: usamos el comando "$ cat /etc/leviathan_pass/leviathan7"
+
+contraseña: qEs5Io5yM8
